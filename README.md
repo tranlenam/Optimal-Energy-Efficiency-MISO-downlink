@@ -1,6 +1,6 @@
 # Optimal Energy-Efficient Transmit Beamforming for Multi-User MISO Downlink
 
-This capsule contains the code for the following scientific paper:
+This repo is cloned from [this CodeOcean capsule](https://codeocean.com/capsule/7272942/tree/v1), which contains the code for the following scientific paper:
 
 Oskari Tervo, Le-Nam Tran, and Markku Juntti, "Optimal Energy-Efficient Transmit Beamforming for Multi-User MISO Downlink," IEEE Trans. Signal Process., vol. 63, no. 20, pp. 5574-5587, Oct. 2015.
 
