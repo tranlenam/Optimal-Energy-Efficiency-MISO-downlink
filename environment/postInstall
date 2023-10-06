@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -e
+YALMIP_RELEASE=R20230622
+# install YALMIP and MOSEK
+curl -L https://github.com/yalmip/YALMIP/archive/refs/tags/$YALMIP_RELEASE.tar.gz | tar xz
+curl -L https://download.mosek.com/stable/9.3.22/mosektoolslinux64x86.tar.bz2 | tar xj
+matlab -nodisplay -r "addpath(genpath('/YALMIP-$YALMIP_RELEASE')); savepath; \
+    addpath /mosek/9.3/toolbox/r2015a; savepath"

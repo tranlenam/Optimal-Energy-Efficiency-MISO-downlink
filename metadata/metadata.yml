@@ -1,0 +1,18 @@
+metadata_version: 1
+name: Optimal Energy-Efficient Transmit Beamforming for Multi-User MISO Downlink
+description: Simulation code for "Optimal Energy-Efficient Transmit Beamforming for
+  Multi-User MISO Downlink," by Oskari Tervo, Le-Nam Tran, and Markku Juntti, IEEE
+  Trans. Signal Process., vol. 66, no. 17, pp. 4435-4449, Sep. 2018.
+authors:
+- name: Oskari Tervo
+  affiliations:
+  - name: University of Oulu
+- name: Le-Nam Tran
+  affiliations:
+  - name: University College Dublin
+- name: Markku Juntti
+  affiliations:
+  - name: University of Oulu
+corresponding_contributor:
+  name: Le-Nam Tran
+  email: nam.tran@ucd.ie
